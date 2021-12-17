@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    background: black;
+    color: white;
+}
+
+/* Header parent */
+
+.navtitle{
+    width: 100%;
+    height: 230px;
+}
+
+.navlinks{
+    display: flex;
+    justify-content:center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background: black;
+    font-size: 14px;
+}
+
+.navlinks {
+    list-style: none;
+    background-color: black;
+    }
+
+.navlinks li{
+    display: inline-block;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 20px solid black; 
+}
+
+.navlinks li a {
+    transition: all 0.3s ease 0s;
+    text-align: left;
+}
+
+.navlinks li a:hover {
+    border: white;
+    border: 15px solid rgb(156, 36, 36);
+    background: rgb(156, 36, 36);
+}
+
+/* Profile pic */
+.pic {
+    cursor: pointer;
+    float: left;
+    width: 200px;
+    height: 200px;
+    border-radius: 50% ;
+    position: absolute;
+    top: 28px;
+    left: 2%;
+
+}
+
+.name {
+    display: flex;
+    position: absolute;
+    float: left;
+    align-items: center;
+    top: 79px;
+    left: 371px;
+    font-size: 64px;
+
+}
+
+.name span {
+    color: rgb(156, 36, 36);
+}
+
+
+/* Main section Parent */
+.section{
+    background: blue;
+    width: 100%;
+    height: 600px;
+    position: relative;
+   
+}
+
+/* About me */
+.section h2 strong{
+    position: relative;
+    top: 55px;
+    left: 67px;
+} 
+
+.aboutme span {
+    color: rgb(156, 36, 36);
+}
+
+p {
+    display: inline-flex;
+    position: relative;
+    top: 67px;
+    left: 67px;
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Footer Parent */
+.contacts{
+    background: blueviolet;
+    width: 100%;
+    height: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
