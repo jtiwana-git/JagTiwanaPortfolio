@@ -1,181 +1,265 @@
-/* UNIVERAL FORMAT */
-
-* {
+*{
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    background: black;
-    color: white;
-    display: flex;
-}
-
-/* Header parent */
-
-.navtitle{
-    width: 100%;
-    height: auto
-}
-
-.navlinks {
-    display: flex;
-    position: absolute;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    padding-left: 8px;
-    padding-right: 8px;
-    background: black;
-    font-size: 14px;
-}
-
-.navlinks {
-    list-style: none;
-    background-color: black;
+    background: rgb(255, 237, 216);
     }
 
-.navlinks li{
-    display: inline-block;
-    padding-top: 0px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border: 20px solid black; 
+body {
+    margin: 0;
+    padding: 0;
+ 
 }
 
-.navlinks li a {
-    transition: all 0.3s ease 0s;
-    text-align: left;
-    color: white;
-    text-decoration: none;
-}
-
-.navlinks li a:hover {
-    border: white;
-    border: 15px solid rgb(156, 36, 36);
-    background: rgb(156, 36, 36);
-}
-
-/* Profile pic */
-.pic {
-    position: absolute;
-    cursor: pointer;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%; 
-    top: 64px;
-    left: 85px;
-
-}
-
-.name {
+/* 1. MENU  */
+.navbar {
     display: flex;
-    position: absolute;
-    align-items: center;
-    top: 79px;
-    left: 371px;
-    font-size: 64px;
-    width: 300px;
-    height: 200px;
-}
-
-.name span {
-    color: rgb(156, 36, 36);
-}
-
-
-/* Main section Parent */
-.section{
-    margin-top: 0;
-    top: 228px;
-    width: 100%;
-    right: 18px;
-    height: auto;
-    position: absolute;
-   
-}
-
-/* About me */
-.section h2 strong{
-    position: absolute;
-    top: 11px;
-    left: 142px;
-    
-} 
-
-.aboutme span {
-    color: rgb(156, 36, 36);
-    position: absolute;
-    top: 1px;
-    left: 102px;
-}
-
-p {
-    display: inline-flex;
-    position: absolute;
-    top: 67px;
-    left: 104px;
-    width: 81%;
-}
-
-.container {
-    width: 100%;
-    height: 440px;
-    display:flex;
-    flex-wrap: wrap;
-  
-} 
-
-.flexibox{
-    border: 4px solid  rgb(156, 36, 36);
-    width: 190px;
-    height: 190px;
-    display: inline-flex;
-    position: relative;
-    flex-wrap: wrap;
-    top: 180px;
-    left: 180px;
-    margin: 35px;
     justify-content: center;
     align-items: center;
-    font-size: 21px;
+    background: rgb(188, 138, 95);
+    color: white;
+}
 
+/* 1a. nav bar */
+.navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+} 
+/* 1b. Unorder list */
+.navbar-links li {
+    list-style: none;
+
+}
+/* 1b. Unorder list */
+.navbar-links li a {
+    text-decoration: none;
+    color: white;
+    background: rgb(188, 138, 95);
+    padding: 1rem;
+    display: block;
+
+}
+/* 1a b. menu / nav bar*/
+.navbar-links li a:hover {
+    background-color: rgb(88, 49, 1);
+    color: tomato;
+
+}
+
+/* 2. Portfolio (Name) */
+.portfolio {
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+}
+/* 2a. Span */
+.portfolio span {
+    color: tomato;
+}
+/* 3. Image */
+.picprofile{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    right: 5%;
+    top: 2%;
    
 }
-  
-   /* flash boarder */
+/* 3. About me section */
+.section{
+    display: flex;
+    flex-direction: row;
+    padding: .5rem 1rem;
+    margin-top: 2%;
 
-.flexibox:hover{
-    border: 4px solid white ;
-    background: rgb(156, 36, 36);
-    color: white; 
-    border-radius: 50%;
+}
+/* 3a. About me section */
+section h2 {
+    display: inline-flex;
+
+}
+/* 3b. About me span */
+.section span {
+    color: tomato;
+}
+/* 3c. About me */
+.me {
+    display: flex;
+    padding: .5rem 1rem;
+}
+/* 3d. About me p */
+.me p {
+    margin-right: 5%;
+    padding: .5rem;
+    
 }
 
-
-
-
-/* Footer Parent */
-.contacttitle {
+/* 3d. About me p */
+.me p:hover{
+    color: tomato;;
+}
+/* 4. Flexbox container (Parent) */
+.container {
     width: 100%;
-    height: 100px;
-    background: chartreuse;
-    position: relative;
-    display: inline-flexbox;
-    top: 800px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-wrap: wrap;
+    gap: 5%;
+
+}
+
+/* 4a flexbox child */
+.fbox{
+    width: 200px;
+    height: 200px;
+    background: rgb(188, 138, 95);   
+}
+
+
+.fbox h3 {
+    background: rgb(188, 138, 95);
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*5. Contact me  */
+.footer{
+    background: rgb(188, 138, 95);
+    width: 100%;
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    justify-content: center;
+    flex-wrap: wrap;
+ 
+}
+
+.footercontactme ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+} 
+
+.footercontactme li {
+    list-style: none;
+
+}
+
+.footercontactme li a {
+    text-decoration: none;
+    color: white;
+    background: rgb(188, 138, 95);
+    padding: 1rem;
+    display: block;
+
+}
+
+.footercontactme li a:hover {
+    background-color: rgb(88, 49, 1);
+    color: tomato;
 
 }
 
 
+@media screen and (max-width: 998px) {
+    /* 1. MENU  */
+    .navbar {
+        flex-direction: column;
+        align-content: flex-start;
+        flex-wrap: wrap;
+     
+    }
 
+    /* 1a. nav bar */
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+     
+    }
 
-.contactmelinks li a:hover {
-    border: white;
-    border: 15px solid rgb(156, 36, 36);
-    background: rgb(156, 36, 36);
-}
+    /* 1b. Unorder list */
+    .navbar-links li {
+        align-items: center;
 
-.contactmelinks ul:hover {
-    border: white;
-    border: 15px solid rgb(156, 36, 36);
-    background: rgb(156, 36, 36);
+    }
+
+    /* 1b. Unorder list */
+    .navbar-links li a {
+        padding: .5rem 1rem;
+    }
+
+    /* 3. Image */
+    .picprofile {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        position: absolute;
+        right: 5%;
+        top: 2%;
+       
+    }
+    /* 3d. About me p */
+    .me p {
+        color:black;
+    }
+    /* 3d. About me p */
+    .me p:hover{
+        color: tomato;
+        background: rgb(231, 213, 181);
+
+    }
+
+    /* 4. Flexbox container (Parent) */
+    .container {
+        width: 100%;
+        height: 360px;
+        padding: 17px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    
+    }
+    
+    /* 4a flexbox child */
+
+    .fbox{
+        width: 150px;
+        height: 150px;
+        background: rgb(188, 138, 95);
+        
+        }       
+
+        /*5. Contact me  */
+        .footer {
+            flex-direction: row;
+            display: flex;
+            flex-wrap: wrap;
+            position: relative;
+            bottom: 0;
+           
+        }
+      
+        .footercontactme ul {
+            width: 100%;
+            flex-direction: row;
+
+            
+        }
+    
+        .footercontactme li {
+            align-items: center;
+          
+        }
+    
+        .footercontactme li a {
+            padding: .5rem 1rem;
+          
+ 
 }
