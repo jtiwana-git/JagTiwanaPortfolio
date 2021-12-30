@@ -12,8 +12,18 @@ no point in sending screen shots
 
 after I submit this work, I will practice and revamp the page 
 
-
 much to learn but I will learn
+
+
+I have redone the website and will improve the site over the next couple of weeks, adding more contents about myself
+
+I have used the coolers website for the colour palletes (may change this in the future as it looks nice but dull)
+
+See attach for the screenshoots 
+
+
+
+
 
 
 

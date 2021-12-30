@@ -46,6 +46,10 @@ body {
 
 }
 
+:target {
+    border: 5px solid blue;
+}
+
 /* 2. Portfolio (Name) */
 .portfolio {
     display: flex;
@@ -122,10 +126,11 @@ section h2 {
     background: rgb(188, 138, 95);
     display: flex;
     color: white;
+    margin-top: 20%;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100%;
+    height: 50%;
 }
 
 
@@ -138,7 +143,35 @@ section h2 {
     bottom: 0;
     justify-content: center;
     flex-wrap: wrap;
- 
+    
+}
+
+.footer h2{
+    position: relative;
+    right: 10%;
+    top: 5%;
+    display: inline-block;
+    height: 36px;
+    background: rgb(188, 138, 95);
+   
+}
+
+.footercontactme{
+
+    background: rgb(188, 138, 95);
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.footer span {
+    color: tomato;
+    background: rgb(188, 138, 95);
+}
+
+.footer h2 strong {
+    background: rgb(188, 138, 95);
 }
 
 .footercontactme ul {
@@ -157,7 +190,9 @@ section h2 {
     color: white;
     background: rgb(188, 138, 95);
     padding: 1rem;
+    justify-content: center;
     display: block;
+    font-size: 18px;
 
 }
 
@@ -243,6 +278,18 @@ section h2 {
             flex-wrap: wrap;
             position: relative;
             bottom: 0;
+           
+        }
+        .footercontactme ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        } 
+
+        .footer h2{
+            position: relative;
+            right: 13%;
+            font-size: 18px;
            
         }
       
