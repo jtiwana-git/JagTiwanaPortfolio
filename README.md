@@ -2,24 +2,11 @@
 
 https://jtiwana-git.github.io/JagTiwanaPortfolio/
 
-I had lots of issues, I have spent the entire week doing this
+updated (Feb 2022), change the colour (could change all of the portfolio for the next time I am adding my porjects)
 
-first issues I had was flex box and then footer is not displaying how I wanted and then @media
+Made a new html for my projects and I will add more as the weeks goes on.
 
-I will still submit the work and it was given me more determine on doing much better
-
-no point in sending screen shots
-
-after I submit this work, I will practice and revamp the page 
-
-much to learn but I will learn
-
-
-I have redone the website and will improve the site over the next couple of weeks, adding more contents about myself
-
-I have used the coolers website for the colour palletes (may change this in the future as it looks nice but dull)
-
-See attach for the screenshoots 
+![Demo of the projects section and resume](assets\images\Portfolio-Feb22.gif)
 
 
 
