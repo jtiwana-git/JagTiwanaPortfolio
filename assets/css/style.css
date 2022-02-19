@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    background: rgb(255, 237, 216);
+    background:  rgb(111, 123, 155);
     }
 
 body {
@@ -15,7 +15,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgb(188, 138, 95);
+    background: rgb(56, 63, 81);
     color: white;
 }
 
@@ -34,7 +34,7 @@ body {
 .navbar-links li a {
     text-decoration: none;
     color: white;
-    background: rgb(188, 138, 95);
+    background: rgb(56, 63, 81);;
     padding: 1rem;
     display: block;
 
@@ -118,11 +118,11 @@ section h2 {
 .fbox{
     width: 200px;
     height: 200px;
-    background: rgb(188, 138, 95);   
+    background:rgb(56, 63, 81);   
 }
 
 .fbox a {
-    background: rgb(188, 138, 95);
+    background: rgb(56, 63, 81);;
     color:white;
     text-decoration: none;
     font-size: 20px;
@@ -139,7 +139,7 @@ section h2 {
 }
 
 .fbox h3 {
-    background: rgb(188, 138, 95);
+    background: rgb(56, 63, 81);;
     display: flex;
     color: white;
     margin-top: 20%;
@@ -152,7 +152,7 @@ section h2 {
 
 /*5. Contact me  */
 .footer{
-    background: rgb(188, 138, 95);
+    background:rgb(56, 63, 81);;
     width: 100%;
     position: absolute;
     display: flex;
@@ -168,26 +168,27 @@ section h2 {
     top: 5%;
     display: inline-block;
     height: 36px;
-    background: rgb(188, 138, 95);
+    background: rgb(56, 63, 81);;
    
 }
 
 .footercontactme{
 
-    background: rgb(188, 138, 95);
-    margin: 0;
-    padding: 0;
+    background: rgb(56, 63, 81);;
+    align-self: center;
+
 }
 
 
 
 .footer span {
     color: tomato;
-    background: rgb(188, 138, 95);
+    background: rgb(56, 63, 81);;
 }
 
 .footer h2 strong {
-    background: rgb(188, 138, 95);
+    background: rgb(56, 63, 81);
+    vertical-align: -webkit-baseline-middle;
 }
 
 .footercontactme ul {
@@ -204,7 +205,7 @@ section h2 {
 .footercontactme li a {
     text-decoration: none;
     color: white;
-    background: rgb(188, 138, 95);
+    background: rgb(56, 63, 81);
     padding: 1rem;
     justify-content: center;
     display: block;
@@ -213,10 +214,31 @@ section h2 {
 }
 
 .footercontactme li a:hover {
-    background-color: rgb(88, 49, 1);
+    background-color: rgb(56, 63, 81);
     color: tomato;
 
 }
+
+.card-group{
+    color: white;
+    background-color: rgb(64, 74, 107);
+}
+
+h5.card-title{
+    text-align: center;
+}
+
+a.card-text{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+a.card-text:hover{
+    color: tomato;
+
+}
+
 
 
 @media screen and (max-width: 998px) {
@@ -323,6 +345,13 @@ section h2 {
     
         .footercontactme li a {
             padding: .5rem 1rem;
-          
- 
+         
+        }
+
+        #contactme {
+            background: rgb(56, 63, 81);
+            margin-left: 70px;
+            margin-top: 5px;
+        }
+            
 }
