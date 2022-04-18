@@ -97,3 +97,51 @@ width: fit-content;
 #project-card-container{
   display: flex;
 }
+
+footer {
+  position: relative;
+  height: 100px;
+  bottom: 0;
+  width: 100%;
+}
+
+#email {
+  color: white !important;
+  border: 1px solid black;
+  width: 150px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#email a{
+  color: black;
+  text-decoration: none;
+}
+
+#linkedin {
+  color: black !important;
+  border: 1px solid black;
+  width: 150px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+}
+
+#github{
+  color: black !important;
+  border: 1px solid black;
+  width: 150px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+}
+
+#github a{
+  color: black;
+  text-decoration: none;
+}
