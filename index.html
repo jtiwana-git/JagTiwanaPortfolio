@@ -5,83 +5,158 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css"/>
-    <title>Jag's Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>JAG's Portfolio</title>
 </head>
 <body>
   <header>
-      <!-- 1. MENU nav bar -->
-        <nav class="navbar">
-                <!--1a. nav bar -->
-                <div class="navbar-links">
-                 <!-- 1b. Unorder list -->
-                <ul>
-                    <li><a href="#aboutme">ABOUT ME</a></li>
-                    <li><a href="#projects">MY PROJECTS</a></li>
-                    <li><a href="#myskills">MY SKILLS</a></li>
-                    <li><a href="#resume">RESUME</a></li>
-                    <li><a href="#contactme">CONTACT ME</a></li>
-                    
-                </ul>
-            </div>
-        </nav>
-        
-        <!--2. Portfolio (Name) -->
-        <div class="portfolio">
-            <!-- 2a. Span -->
-            <h1><span>Jag</span>deep Tiwana <span>Portfolio</span></h1> 
-            <!-- 3. Image -->
-            <img Class="picprofile" src="./assets/images/Portfolioimageedit.JPG" alt="Profile">
-       
+
+  <nav class="main">
+    <ul class="nav-main">
+  <li class="nav-item">
+    <a class="nav-link" id="about-me" aria-current="page" href="#aboutme">ABOUT ME</a>
+  </li>
+    <a class="nav-link" href="#projects">MY PROJECTS</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#myskils">MY SKILLS</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#resume">RESUME</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#contactme">CONTACT ME</a>
+  </li>
+</ul>
+</nav>
+</header>
+
+<body>
+  
+<div class="container-main d-flex justify-content-center">
+  
+   <div class="card mb-3 border-white" style="max-width: 750px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="./assets/images/Portfolioimageedit.JPG" class="img-fluid rounded-start" id="profile1" alt="Profile pic 1">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h2 class="card-title">About me</h2>
+          <p class="card-text">I am a junior web designer in the coding world, I love to learn new IT skills. I am interested in gaming 🕹️, football ⚽, box sets/movies 🎦, long scenic drives 🚗 and basketball 🏀 where I play for a local team in a national league. My background that I have worked for the local authority for the 22 years, I am known in my team as the “go to” IT guy 😁. As I have designed and created spreadsheets for the team and our suppliers to use. I am reliable, hard working and 'Mr Dependable'.</p>
+      
         </div>
-           
-  </header>
-        <!--3. About me section -->
-    <div class="section">
-        <!-- 3b. About me span -->
-        <h2><strong>About</strong><strong> <span>Me</span></strong></h2>
+      </div>
     </div>
-        <!-- 3d. About me p -->
-    <div class="me">
-    <p>I am a junior web designer in the coding world, I love to learn new IT skills. I am interested in gaming 🕹️, football ⚽, box sets/movies 🎦, long scenic drives 🚗 and basketball 🏀 where I play for a local team in a national league.
-        My background that I have worked for the local authority for the 22 years, I am known in my team as the “go to” IT guy 😁. As I have designed and created spreadsheets for the team and our suppliers to use. I am reliable, hard working and 'Mr Dependable'.  I have the knowledge of Jquery, Javascript, CSS and HTML     
-    </p>
+  </div>
+</div>
+
+<div class="container-main d-flex justify-content-center">
+
+  <div class="card mb-3 border-white" style="max-width: 750px;">
+    <div class="row g-0">
+      <div class="col-md-8">
+        <h2 class="card-title" id="skillsHeading">My Skills</h2>
+        <p class="card-text">I have the knowledge of the following technologies:- Jquery, Javascript, CSS and HTML </p>
+        <ul class="list-group list-group-horizontal ">
+          <li class="list-group-item border-white">• HTML</li>
+          <li class="list-group-item border-white">• CSS</li>
+          <li class="list-group-item border-white">• Javascript</li>
+          <li class="list-group-item border-white">• Bootstrap</li>
+          <li class="list-group-item border-white">• Tailwind</li>
+        </ul>
+        <ul class="list-group list-group-horizontal-sm">
+          <li class="list-group-item border-white">• Using Server / 3rd party API</li>
+          <li class="list-group-item border-white">• Node Package Manager </li>
+        </ul>
+        <ul class="list-group list-group-horizontal-md">
+          <li class="list-group-item border-white">• MySQL</li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <div class="card-body" id="myskillImageContainer">
+          <img src="./assets/images/Skill.png" class="img-fluid rounded-start" id="profile2" alt="Profile 2">
+        </div>
+      </div>
     </div>
+  </div>
+</div>
+<br>
+<br>
+<br>
 
-    <!-- 4. Flexbox container (Parent) -->
-    <div class="container">
-
-        <!-- 4a flexbox child -->
-        <div class="fbox" id="projects">
-            <a href="Portfolio.html">Projects</a>
+  <!-- <div class="card-body">
+    <h2 class="card-title text-center">Projects</h2>
+    <br>
+    <br>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="./assets/images/mcu-deep-diver-demo.gif" alt="Avatar" style="width:300px;height:300px;">
         </div>
-        <div class="fbox" id="myskills">
-            <h3>Skills</h3> 
+        <div class="flip-card-back">
+          <h2>MCU-Deep-Diver</h2>
+          <h5>Technologies was used:-</h5>
+          <ul class="list-group list-group">
+            <li class="list-group-item border-white">• HTML • CSS • Javascript</li>
+            <li class="list-group-item border-white">• Tailwind • Marvel API</li>
+            <li class="list-group-item border-white">• FontAwesome</li>
+            <br>
+            <span class="projectSite">Website: </span><a class="Weblinks"href="https://ryocon.github.io/MCU-deep-diver/">MCU-Deep-Diver site</a>
+            <span class="projectSite">Github: </span><a class="Weblinks"href="https://ryocon.github.io/MCU-deep-diver/">MCU-Deep-Diver (Git Repo)</a>
         </div>
-        <div class="fbox" id="resume">
-            <a href="https://drive.google.com/file/d/1rRkJyTTEDlivKMQd_6eM3iBW896S2O18/view?usp=sharing">Resume</a>
-        </div>
-
+      </div>
+    </div> -->
+ 
+<div class="card-group" id="project-group">
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+      <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
     </div>
-    
-    <footer>
-        <!-- 5. Contact me -->
-        <div class="footer">
+      <div class="flip-card-back">
+      <h1>John Doe</h1>
+      <p>Architect & Engineer</p>
+      <p>We love that guy</p>
+    </div>
+  </div>
+</div>
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+      <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+    </div>
+      <div class="flip-card-back">
+      <h1>Jane Doe</h1>
+      <p>Architect & Engineer</p>
+      <p>We love that guy</p>
+    </div>
+  </div>
+</div>
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+    <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+  </div>
+    <div class="flip-card-back">
+    <h1>Karen Doe</h1>
+    <p>Architect & Engineer</p>
+    <p>We love that guy</p>
+  </div>
+</div>
+</div>
+</div>
 
-            <h2 id="contactme"><strong>Contact</strong><strong> <span>Me</span></strong></h2>            
-       
-            <div class="footercontactme">
-                <ul>
-                    <li><a href="mailto:jtiwana@hotmail.com;jagdeep_tiwana@sandwell.gov.uk">Email me</a></li>
-                    <li><a href="https://www.linkedin.com/in/jagdeep-tiwana-02954a226/">Linkedin</a></li>
-                    <li><a href="https://github.com/jtiwana-git">Git Hub</a></li>
-                
-                </ul>
-            </div>
 
-        </div>
 
-    </footer>
 
+
+
+
+ 
+    <script src="/assets/js/script.js"></script>
     
 </body>
 </html>
+
